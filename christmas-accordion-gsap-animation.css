@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  background: #1a2a6c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.c-images-accordion {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c-images-accordion__item {
+  width: 10vw;
+  margin: 0 10px;
+  height: 75vh;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c-images-accordion__item img {
+  width: 100%;
+  border-radius: 3vw;
+  display: inline-block;
+  height: 100%;
+  object-fit: cover;
+}
